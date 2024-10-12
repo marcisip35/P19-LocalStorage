@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Main Content */
+#mainContent {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(189, 128, 189);
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Input Forms */
+#inputForms {
+    width: 40%;
+    border-right: 2px solid rgb(255, 255, 255);
+
+    display: grid;
+    place-items: center;
+}
+
+#inputForm {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 16px 4px rgb(173, 17, 179);
+    transition: 0.3s ease-in;
+    padding: 60px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inputForm label{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#inputForm input{
+    height: 40px;
+    border:none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    font-size: 24px;
+    padding-left: 6px;
+    opacity: 0.7;
+}
+
+#submit{
+    width: 300px;
+    height: 50px;
+    margin-top: auto;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+#submit:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* Output Forms */
+#outputForms {
+    width: 60%;
+    margin-top: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.outputForm{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    box-shadow:  2px 2px 16px 1px rgb(82, 82, 82);
+    border-radius: 8px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.outputForm p{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
